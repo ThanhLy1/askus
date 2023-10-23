@@ -8,8 +8,8 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone [Your Repository URL]
-   cd [Your Repository Directory]
+   git clone [https://github.com/ThanhLy1/askus]
+   cd [askus]
 
 2. Install the dependencies
     ```bash
