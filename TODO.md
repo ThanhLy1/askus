@@ -21,8 +21,7 @@ Extract images and their sources to handle them separately.
 2. Store Data in MongoDB:
    Once you've parsed the data, you can store it in MongoDB. Structure the data in a way that's easy to query. For instance:
 
-perl
-Copy code
+```
 {
 "_id": ObjectId("someid"),
 "question": "How to reset my password?",
@@ -34,6 +33,8 @@ Copy code
 "height": 387
 }]
 }
+```
+
 3. Develop the AI Chatbot:
    Using the Generative AI model (like GPT or similar), train or integrate an AI chatbot that can understand natural language and search the MongoDB database for relevant articles.
 
