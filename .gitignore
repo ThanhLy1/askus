@@ -1,2 +1,4 @@
-/article/
+/article_html/
 /.idea/
+/venv/
+/parsed_json/
