@@ -18,6 +18,7 @@ Here's a step-by-step guide to get you started:
 Extract the question using the id="kb_article_question"
 Extract the article text using the id="kb_article_text"
 Extract images and their sources to handle them separately.
+
 2. Store Data in MongoDB:
    Once you've parsed the data, you can store it in MongoDB. Structure the data in a way that's easy to query. For instance:
 
@@ -45,11 +46,13 @@ Use Bootstrap 5 for styling and responsiveness.
 Implement a chat interface where users can type their questions.
 Display results from the MongoDB database when a match is found.
 Ensure that images from the articles are displayed correctly.
+
 5. Handle Image References:
    For the images referenced in the articles, make sure they are accessible:
 
 If they are hosted on the main page (https://www.hawaii.edu/), you can simply prepend this URL to the src of each image.
 If not, consider moving the images to your server and updating the src paths accordingly.
+
 6. Metrics and Success:
    Finally, integrate a system to track metrics such as successful searches and reductions in Help Desk tickets. This will help determine the success of your solution.
 
